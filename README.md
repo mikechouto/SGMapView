@@ -5,11 +5,17 @@
 [![License](https://img.shields.io/cocoapods/l/SGMapView.svg?style=flat)](http://cocoapods.org/pods/SGMapView)
 [![Platform](https://img.shields.io/cocoapods/p/SGMapView.svg?style=flat)](http://cocoapods.org/pods/SGMapView)
 
+## Discription
+
+SGMapView is a subclass of MKMapView which bring Google Map like single hand gesture on to iOS's MkMapView.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+iOS 8.0+
 
 ## Installation
 
