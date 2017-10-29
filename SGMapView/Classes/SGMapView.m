@@ -87,10 +87,12 @@ dispatch_source_t CreateGestureWatchDog(double interval, dispatch_block_t block)
         __weak typeof(self) weakSelf = self;
         double timeoutInterval = 0.200f;
         self.gestureWatchdog = CreateGestureWatchDog(timeoutInterval, ^{
-            if (weakSelf.gestureWatchdog) {
-                dispatch_source_cancel(weakSelf.gestureWatchdog);
-            }
-            [weakSelf resetGestureRecognizers];
+            dispatch_async(dispatch_get_main_queue(), ^{
+                if (weakSelf.gestureWatchdog) {
+                    dispatch_source_cancel(weakSelf.gestureWatchdog);
+                }
+                [weakSelf resetGestureRecognizers];
+            });
         });
         
         [self addGestureRecognizer:self.longPressRecognizer];
