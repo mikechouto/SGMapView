@@ -7,6 +7,7 @@
 //
 
 @import UIKit;
+@import MapKit;
 
 @interface SGViewController : UIViewController
 

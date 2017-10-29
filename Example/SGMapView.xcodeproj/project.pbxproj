@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04F02931B15A666E92781118 /* Pods_SGMapView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8250671A7A9F78EF2C25BF /* Pods_SGMapView_Example.framework */; };
+		2A100BB41D65C08500B36AED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A100BB31D65C08500B36AED /* MapKit.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		0CB455474E5AF81AF11DB650 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		289F3CBFC3A4C0D93A6FE538 /* Pods_SGMapView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGMapView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A100BB31D65C08500B36AED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		3531E734F1E599259D1A4FCE /* Pods-SGMapView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGMapView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SGMapView_Example/Pods-SGMapView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		38F9D65F3E4D90B7CC36561B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4C71DAD86014C7F13EB5FE4B /* Pods-SGMapView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGMapView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SGMapView_Tests/Pods-SGMapView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A100BB41D65C08500B36AED /* MapKit.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -117,6 +120,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2A100BB31D65C08500B36AED /* MapKit.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
